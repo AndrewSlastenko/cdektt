@@ -2,27 +2,27 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.andrews</groupId>
-  <artifactId>dafaq</artifactId>
+  <artifactId>cdektask</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>dafaq Maven Webapp</name>
+  <name>cdektask Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+      	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<version>3.8.1</version>
+      	<scope>test</scope>
     </dependency>
-    		<dependency>
+    <dependency>
 		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-context</artifactId>
 		    <version>5.0.8.RELEASE</version>
 		</dependency>
 		<dependency>
-		    <groupId>org.springframework</groupId>
-		    <artifactId>spring-core</artifactId>
-		    <version>5.0.8.RELEASE</version>
+		  	<groupId>org.springframework</groupId>
+		  	<artifactId>spring-core</artifactId>
+		  	<version>5.0.8.RELEASE</version>
   	</dependency>
 		<dependency>
 		    <groupId>org.springframework</groupId>
@@ -56,11 +56,6 @@
 		</dependency>
 		<dependency>
 		    <groupId>org.springframework</groupId>
-		    <artifactId>spring-beans</artifactId>
-		    <version>5.0.8.RELEASE</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.springframework</groupId>
 		    <artifactId>spring-context-support</artifactId>
 		    <version>5.0.8.RELEASE</version>
 		</dependency>
@@ -84,6 +79,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>dafaq</finalName>
+    <finalName>cdektask</finalName>
   </build>
 </project>
