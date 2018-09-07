@@ -23,7 +23,6 @@ public class UserDAOImplementation implements UserDAO {
 		jdbcTemplate.update(sql, user.getName());
 	}
 
-	@Override
 	public List<User> filterAll(String reg) {
 		reg = "%" + reg + "%";
 		String sql = "SELECT * FROM theone WHERE cast(id as char(45)) like ? or name like ?";
