@@ -22,7 +22,7 @@ public class UserServiceImplementation implements UserService {
 		userDAO.insertUser(user);
 	}
 
-	public List<User> filterAll(String reg) {
+	public List<User> filterAll(String reg){
 		return userDAO.filterAll(reg);
 	}
 	

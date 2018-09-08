@@ -7,5 +7,5 @@ import com.andrews.model.User;
 public interface UserService {
 	List<User> findAll();
 	void insertUser(User user);
-	List<User> filterAll(String reg);
+	List<User> filterAll(String reg) ;
 }
