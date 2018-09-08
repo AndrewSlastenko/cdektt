@@ -4,7 +4,8 @@
 <title>Error</title>
 </head>
 <body>
-	<h2>Oops, seems like there is error on server</h2>
-	<a href="back"> Try again </a>
+Oops, seems like there is error on server [${message}] <br>
+Please contact the administrator email: and.slastenko@gmail.com <br>	
+<a href="back"> Try again </a>
 </body>
 </html>

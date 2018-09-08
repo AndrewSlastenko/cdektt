@@ -56,7 +56,8 @@ public class UserController {
 	}
 
 	@ExceptionHandler(Exception.class)
-	public String exceptionHandler(Exception e) {
+	public String exceptionHandler(Exception e, Model model) {
+		model.addAttribute("message", e.getMessage());
 		return "errorPage";
 	}
 	
